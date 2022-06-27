@@ -59,7 +59,7 @@ class OrderModel {
     createdAt = json['created_at'];
     updatedAt = json['updated_at'];
     deliveryManId = json['delivery_man_id'];
-    deliveryCharge = json['delivery_charge'].toDouble();
+    deliveryCharge = json['delivery_charge'];
     orderNote = json['order_note'];
     deliveryAddress = json['delivery_address'] != null
         ? new DeliveryAddress.fromJson(json['delivery_address'])
@@ -186,8 +186,8 @@ class Customer {
 
   Customer.fromJson(Map<String, dynamic> json) {
     id = json['id'];
-    fName = json['f_name'];
-    lName = json['l_name'];
+    fName = json['firstname'];
+    lName = json['lastname'];
     email = json['email'];
     image = json['image'];
     isPhoneVerified = json['is_phone_verified'];

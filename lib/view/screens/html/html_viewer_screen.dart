@@ -30,7 +30,7 @@ class HtmlViewerScreen extends StatelessWidget {
             onTapUrl: (String url) {
               launch(url);
             },
-            hyperlinkColor: Colors.blue,
+            // hyperlinkColor: Colors.blue,
           ),
         ),
       ),

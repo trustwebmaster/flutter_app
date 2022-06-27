@@ -86,8 +86,8 @@ class OrderDetailsModel {
     _taxAmount = json['tax_amount'].toDouble();
     _createdAt = json['created_at'];
     _updatedAt = json['updated_at'];
-    _addOnIds = json['add_on_ids'].cast<int>();
-    _addOnQtys = json['add_on_qtys'].cast<int>();
+    _addOnIds = json['add_on_ids'];
+    _addOnQtys = json['add_on_qtys'];
     _variant = json['variant'];
   }
 

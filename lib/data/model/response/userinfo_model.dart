@@ -30,8 +30,8 @@ class UserInfoModel {
 
   UserInfoModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
-    fName = json['f_name'];
-    lName = json['l_name'];
+    fName = json['first_name'];
+    lName = json['last_name'];
     phone = json['phone'];
     email = json['email'];
     identityNumber = json['identity_number'];
