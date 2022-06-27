@@ -1,4 +1,4 @@
-package com.u6amtech.restaurant_delivery_boy
+package com.tngrill.driver_app
 
 import io.flutter.embedding.android.FlutterActivity
 

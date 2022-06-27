@@ -13,7 +13,7 @@ ThemeData light = ThemeData(
   shadowColor: Color(0xfffcf9f4),
   backgroundColor: Color(0xffF4F7FC), // for background color
   cardColor: Color(0xFFFFFFFF), // for surface color
-  primaryColor: Color(0xFFFC6A57), // for primary color
+  primaryColor: Color(0xff2a2a40), // for primary color
   highlightColor: Color(0xFF1F1F1F), // for on background text
   focusColor: Color(0xFF1F1F1F),  // for On Surface text color
   dividerColor: Color(0xFF2A2A2A), // for Any line

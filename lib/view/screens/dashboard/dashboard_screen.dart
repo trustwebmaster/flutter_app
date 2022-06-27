@@ -39,7 +39,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
       print("onMessage: ${message.data}");
-      MyNotification.showNotification(message, flutterLocalNotificationsPlugin, false);
+      // MyNotification.showNotification(message, flutterLocalNotificationsPlugin, false);
       Provider.of<OrderProvider>(context, listen: false).getAllOrders(context);
     });
   }
